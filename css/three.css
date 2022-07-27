@@ -1,0 +1,241 @@
+body {
+	margin: 0;
+	height: 100%;
+	background-color: #000;
+	color: #fff;
+	font-family: Monospace;
+	font-size: 13px;
+	line-height: 24px;
+	overscroll-behavior: none;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+	color: #ff0;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+h1 {
+	/* font-family: 'Montserrat', sans-serif;;
+	font-weight: 900; */
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 4em;
+	max-width: 40ch;
+	text-align: left;
+	line-height: 1.8;
+	transform: scale(0.94);
+	animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  } @media (max-width: 320px) {
+	h1 {
+		font-size: 2em;
+	}
+} @media (min-width: 320px) {
+	h1 {
+		font-size: 2em;
+	}
+} @media (min-width: 425px) {
+	h1 {
+		font-size: 2em;
+	}
+} @media (min-width: 600px) {
+	h1 {
+		font-size: 2.5em;
+	}
+} @media (min-width: 1200px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+  @keyframes scale {
+	100% {
+	  transform: scale(1);
+	}
+  }
+  
+  span {
+	display: inline-block;
+	opacity: 0;
+	filter: blur(4px);
+  }
+  
+  span:nth-child(1) {
+	animation: fade-in 5.0s 5.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+	animation: fade-in 5.0s 5.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+	animation: fade-in 5.0s 5.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+	animation: fade-in 5.0s 5.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(5) {
+	animation: fade-in 5.0s 5.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+	animation: fade-in 5.0s 5.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(7) {
+	animation: fade-in 5.0s 5.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(8) {
+	animation: fade-in 5.0s 5.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(9) {
+	animation: fade-in 5.0s 5.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(10) {
+	animation: fade-in 5.0s 6.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(11) {
+	animation: fade-in 5.0s 6.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(12) {
+	animation: fade-in 5.0s 6.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(13) {
+	animation: fade-in 5.0s 6.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(14) {
+	animation: fade-in 5.0s 6.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(15) {
+	animation: fade-in 5.0s 6.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(16) {
+	animation: fade-in 5.0s 6.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(17) {
+	animation: fade-in 5.0s 6.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(18) {
+	animation: fade-in 5.0s 6.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  @keyframes fade-in {
+	100% {
+	  opacity: 1;
+	  filter: blur(0);
+	}
+  }
+
+#main-text {
+	position: absolute;
+	/* top: 0px; */
+	width: 100%;
+	/* height: 100%; */
+    top: 50%;
+	padding-left: 5%;
+	box-sizing: border-box;
+	text-align: left;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* TODO Solve this in HTML */
+} @media (max-width: 320px){
+	#main-text{
+		top: 35%;
+	}
+} @media (min-width: 320px){
+	#main-text{
+		top: 35%;
+	}
+} @media (min-width: 600px){
+	#main-text{
+		top: 35%;
+		padding-left: 2%;
+	}
+} @media (min-width: 1200px){
+	#main-text{
+		top: 36%;
+		padding-left: 2%;
+	}
+}
+
+a, button, input, select {
+	pointer-events: auto;
+}
+
+.lil-gui {
+	z-index: 2 !important; /* TODO Solve this in HTML */
+}
+
+@media all and ( max-width: 640px ) {
+	.lil-gui.root { 
+		right: auto;
+		top: auto;
+		max-height: 50%;
+		max-width: 80%;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+#overlay {
+	position: absolute;
+	font-size: 16px;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgba(0,0,0,0.7);
+}
+
+	#overlay button {
+		background: transparent;
+		border: 0;
+		border: 1px solid rgb(255, 255, 255);
+		border-radius: 4px;
+		color: #ffffff;
+		padding: 12px 18px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+#notSupported {
+	width: 50%;
+	margin: auto;
+	background-color: #f00;
+	margin-top: 20px;
+	padding: 10px;
+}
